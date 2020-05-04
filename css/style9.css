@@ -156,7 +156,7 @@ ul{
 	height:auto;
 	min-height:45px;
 	position:relative;
-	top:12px;
+	top:135px;
 }
 .menu-container label {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
@@ -1260,12 +1260,14 @@ padding-right: 28px;
 }
 #menu-switcher:checked + #navbar {
     display: block;
-	position: absolute;
-	width: 100%;
-	background: #fff;
-	top: 66px;
-	left: 0;
-	z-index:999;
+    position: absolute;
+    width: 100%;
+    background: #fff;
+    top: 177px;
+    left: 0;
+    z-index: 999;
+    padding: 12px;
+    height: auto;
 }
 .product-item li:nth-child(2){
 	margin-right:0;
